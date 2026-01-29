@@ -1,0 +1,7 @@
+{
+  "name": "Campus Access",
+  "description": "A comprehensive digital gate pass system for RGIPT students, faculty authorities, and security personnel to manage exit and entry requests efficiently.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
