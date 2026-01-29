@@ -1,20 +1,90 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🚪 Campus Access – Digital Gate Pass System
+📌 Overview
 
-# Run and deploy your AI Studio app
+The Campus Access App is a modern solution designed to replace the traditional paper-based gate pass system used in colleges. This application allows students to request gate passes digitally, while faculty and security can approve, track, and verify passes in real time.
 
-This contains everything you need to run your app locally.
+The system improves security, transparency, and efficiency by maintaining a centralized digital record of all entry and exit permissions.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1YISpA3zLS3xXQOG6oaeRYdX8AJ8tpKzH
+🎯 Objectives
 
-## Run Locally
+Eliminate manual paper gate passes
 
-**Prerequisites:**  Node.js
+Reduce time and effort for students, faculty, and security staff
 
+Maintain secure digital records of student movement
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Enable real-time approval and verification
+
+Prevent misuse and unauthorized exits
+
+👥 User Roles
+👨‍🎓 Student
+
+Login using college credentials
+
+Request a gate pass with reason and time
+
+Track approval status
+
+Show digital pass at the gate
+
+👩‍🏫 Authority / Warden
+
+View student requests
+
+Approve or reject gate passes
+
+Add remarks if required
+
+🛡️ Security
+
+Match the pass number to verify digital pass
+
+Log entry and exit time automatically
+
+Prevent invalid or expired passes
+
+✨ Key Features
+
+🔐 Secure Authentication
+
+📱 User-friendly Interface
+
+📝 Digital Gate Pass Request
+
+✅ Approval Workflow
+
+⏱️ Time-bound Pass Validity
+
+📊 Admin Dashboard
+
+☁️ Cloud-based Data Storage
+
+🧩 System Architecture
+
+Flow:
+
+Student submits gate pass request
+
+Request sent to authority/warden
+
+Approval or rejection
+
+pass code generated for approved pass
+
+Security verifies pass code at gate
+
+🔮 Future Enhancements
+
+📍 GPS-based verification
+
+📲 Mobile notifications
+
+🧠 AI-based anomaly detection
+
+📈 Analytics & reports
+
+🪪 Integration with college ID cards
+
+🤝 Contribution Guidelines
+
